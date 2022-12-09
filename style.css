@@ -1,0 +1,129 @@
+
+body{
+    background:rgba( 23, 119, 106,0.8) ;
+}
+
+.graphBox
+{
+    position: relative;
+    width: 90%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+    background: #fff;
+    min-height: 200px;
+    margin: auto;
+}
+
+.graphBox .boxOne 
+{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 20;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+
+}
+
+.graphBox .boxTwo
+{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+
+.graphBoxTwo
+{
+    position: relative;
+    width: 90%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+    background: #f1f1f1;
+    min-height: 200px;
+    margin: auto;
+}
+
+.graphBoxTwo .boxThree
+{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;  
+}
+
+.boxFour
+{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px; 
+}
+
+.groupThree .graphBoxThree
+{
+    position: relative;
+    width: 90%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    background: #fff;
+    min-height: 200px;
+    margin: auto;
+}
+
+.groupThree .graphBoxThree .boxFour
+{
+    position: relative;
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.groupThree .graphBoxThree .boxFive
+{
+    position: relative;
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.groupFour
+{
+    position: relative;
+    width: 77%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    background: #fff;
+    min-height: 200px;
+    margin: auto;
+}
+
+.barSeven{
+    position: relative;
+    width: 70%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    margin: auto;
+}
